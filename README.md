@@ -89,6 +89,42 @@ Zarvan v2 was benchmarked against standard Transformer, LSTM, and GRU models. On
 
 These results demonstrate that Zarvan v2 is a state-of-the-art architecture for tasks requiring deep stateful memory and reasoning, while remaining a versatile and competitive model for general-purpose sequence processing.
 
+## Result Visualizations
+
+This section provides a complete gallery of the training and evaluation charts for all experiments conducted.
+
+### Foundational Reasoning Tasks (1-8)
+
+| 1. Binary Flip | 2. Ternary Cycle | 3. Parallel States |
+| :---: | :---: | :---: |
+| ![Binary Flip Results](./image/1_binary_flip.png) | ![Ternary Cycle Results](./image/2_ternary_cycle.png) | ![$3_parallel_states Results](./image/3_parallel_states.png) |
+| **4. Long Dependency** | **5. Reasoning in Noise** | **6. Conditional Logic** |
+| ![Long Dependency Results](./image/4_long_dependency.png) | ![Reasoning in Noise Results](./image/5_reasoning_in_noise.png) | ![Conditional Logic Results](./image/6_conditional_logic.png) |
+| **7. Hierarchical Reasoning** | **8. Counting** | |
+| ![Hierarchical Reasoning Results](./image/7_hierarchical_reasoning.png) | ![Counting Results](./image/8_counting.png) | |
+
+### Advanced & Algorithmic Tasks (9-17)
+
+| 9. Relational Induction | 10. Stack Algorithm | 11. Delayed Execution |
+| :---: | :---: | :---: |
+| ![Relational Induction Results](./image/9_relational_induction.png) | ![Stack Algorithm Results](./image/10_stack_algorithm.png) | ![Delayed Execution Results](./image/11_delayed_execution.png) |
+| **12. Compositional Math** | **13. Combination Lock** | **14. Conditional Resource** |
+| ![Compositional Math Results](./image/12_compositional_math.png) | ![Combination Lock Results](./image/13_combination_lock.png) | ![Conditional Resource Results](./image/14_conditional_resource.png) |
+| **15. 1D Dynamic Pathfinding** | **16. Crafting Chain** | **17. 2D Dynamic Pathfinding** |
+| ![1D Dynamic Pathfinding Results](./image/15_dynamic_pathfinding.png) | ![Crafting Chain Results](./image/16_crafting_chain.png) | ![2D Dynamic Pathfinding Results](./image/17_dynamic_pathfinding_2d.png) |
+
+### State-Maintaining (SSM-like) Tasks (18-20)
+
+| 18. Selective Copying | 19. Signal Accumulation | 20. Dominant Frequency |
+| :---: | :---: | :---: |
+| ![Selective Copying Results](./image/18_selective_copying.png) | ![Signal Accumulation Results](./image/19_signal_accumulation.png) | ![Dominant Frequency Results](./image/20_dominant_frequency.png) |
+
+### Vision & Audio Benchmarks
+
+| MNIST Classification | CIFAR-10 Classification | Speech Commands |
+| :---: | :---: | :---: |
+| ![MNIST Results](./image/mnist-test-1.png) | ![CIFAR-10 Results](./image/cifar-10.png) | ![Speech Commands Results](./image/speech-audio.png) |
+
 ---
 
 ## Contact
